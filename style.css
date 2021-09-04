@@ -1,0 +1,22 @@
+body{
+    max-width: 800px;
+    margin: auto;
+    padding-top: 50px;
+}
+div{
+    display: flex;
+}
+.btn{
+    margin: auto;
+    justify-content: center;
+}
+button{
+    width: 200px;
+    height: 50px;
+    background-color: cadetblue;
+}
+button:hover{
+    box-shadow: 4px 4px 10px 4px;
+    background-color: cyan;
+    transition: 0.5s;
+}
